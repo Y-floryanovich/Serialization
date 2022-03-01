@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization.csproj", "{0A9764D6-9856-44A1-BB45-A6C5B3FB9C59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySerialization", "..\BinarySerialization\BinarySerialization.csproj", "{FF15F97F-C7E9-461D-8141-5732995999AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerialization", "..\XMLSerialization\XMLSerialization.csproj", "{C74AD141-ED1F-4AF1-B9F5-15AB99AE6916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSerialization", "..\JsonSerialization\JsonSerialization.csproj", "{3E70E229-666D-4D1D-9B15-ACE02CE3FB91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{0A9764D6-9856-44A1-BB45-A6C5B3FB9C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A9764D6-9856-44A1-BB45-A6C5B3FB9C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A9764D6-9856-44A1-BB45-A6C5B3FB9C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF15F97F-C7E9-461D-8141-5732995999AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF15F97F-C7E9-461D-8141-5732995999AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF15F97F-C7E9-461D-8141-5732995999AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF15F97F-C7E9-461D-8141-5732995999AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74AD141-ED1F-4AF1-B9F5-15AB99AE6916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74AD141-ED1F-4AF1-B9F5-15AB99AE6916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74AD141-ED1F-4AF1-B9F5-15AB99AE6916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74AD141-ED1F-4AF1-B9F5-15AB99AE6916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E70E229-666D-4D1D-9B15-ACE02CE3FB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E70E229-666D-4D1D-9B15-ACE02CE3FB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E70E229-666D-4D1D-9B15-ACE02CE3FB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E70E229-666D-4D1D-9B15-ACE02CE3FB91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
