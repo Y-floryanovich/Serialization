@@ -1,3 +1,0 @@
-C:\.NET Basic\Serialization\JsonSerialization\obj\Debug\JsonSerialization.csproj.AssemblyReference.cache
-C:\.NET Basic\Serialization\JsonSerialization\obj\Debug\JsonSerialization.csproj.SuggestedBindingRedirects.cache
-C:\.NET Basic\Serialization\JsonSerialization\obj\Debug\JsonSerialization.csproj.CoreCompileInputs.cache
