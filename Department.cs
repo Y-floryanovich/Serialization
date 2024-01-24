@@ -24,7 +24,7 @@ namespace Serialization
                 {
                     var formatter = new BinaryFormatter();
                     formatter.Serialize(stream, this);
-                    stream.Position = 0;
+                    stream.Position = 10;
                     return formatter.Deserialize(stream);
                 }
             return null;
