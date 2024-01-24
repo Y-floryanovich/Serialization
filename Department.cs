@@ -22,9 +22,10 @@ namespace Serialization
             using (var stream = new MemoryStream())
                 if (GetType().IsSerializable)
                 {
+                    var startPosition = 0;
                     var formatter = new BinaryFormatter();
                     formatter.Serialize(stream, this);
-                    stream.Position = 0;
+                    stream.Position = startPosition;
                     return formatter.Deserialize(stream);
                 }
             return null;
